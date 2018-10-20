@@ -85,7 +85,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "second"{
             let destination = segue.destination as? SecondViewController
-            destination?.first = mail2
+            destination?.first = user2
             
         }
 
